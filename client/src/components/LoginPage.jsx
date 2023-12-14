@@ -5,12 +5,10 @@ function LoginPage() {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setIsLoading(true);
     setError("");
 
     try {
@@ -35,7 +33,7 @@ function LoginPage() {
       console.error("Login error:", error);
       setError("Login failed");
     } finally {
-      setIsLoading(false);
+      // something
     }
   };
 

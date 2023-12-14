@@ -1,0 +1,55 @@
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .site-branding h1 {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .market-data {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+  }
+  
+  .market-data p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .positive {
+    color: #4caf50;
+  }
+  
+  .tagline {
+    text-align: center;
+  }
+  
+  .tagline p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .auth-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .auth-actions button:hover {
+    background-color: #45a045;
+  }
+  

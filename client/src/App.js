@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import LoginPage from './components/LoginPage';
 import HomePage from './components/HomePage'; 
 import RegisterPage from './components/RegisterPage'; 
-
 function App() {
   const isAuthenticated = localStorage.getItem('token'); 
 
