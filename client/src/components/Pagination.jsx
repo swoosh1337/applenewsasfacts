@@ -1,5 +1,5 @@
 // Pagination.jsx
-import React from 'react';
+import React from "react";
 import "../buttons.css";
 
 function Pagination({ currentPage, totalPages, setCurrentPage, scrollToTop }) {
